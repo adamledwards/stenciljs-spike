@@ -1,0 +1,14 @@
+{
+  "name": "moduk-stencil-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run --filter web-components build && pnpm run --filter react build",
+    "server": "pnpm run --filter next-site dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
